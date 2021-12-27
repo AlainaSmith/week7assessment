@@ -8,4 +8,4 @@ extraLargeArray     15.72ms        1.935ms
 
 
 
-In this table it is most significant to observe the functions as they scale up and not which function is the fastest at first. Because in this case, the doubleInsert time was faster than the doublerAppend time, but this changes drastically once we hit the largeArray, where the doublerAppend runtime is faster, where it remains fatser in the extraLargeArray as well.
+In this table it is most significant to observe the functions as they scale up and not which function is the fastest at first. Because in this case the doubleInsert time was faster in the begining but this changes drastically once we hit the largeArray, where the doublerAppend runtime is faster and remains faster in the extraLargeArray as well.
